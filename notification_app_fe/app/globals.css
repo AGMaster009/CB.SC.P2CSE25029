@@ -1,0 +1,5 @@
+/* MUI CssBaseline handles global resets — this file is intentionally minimal */
+html, body {
+  margin: 0;
+  padding: 0;
+}
