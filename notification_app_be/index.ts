@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("Notification System Backend is running. Access priority notifications at /api/priority-notifications");
+});
+
 const PORT = 4000;
 const BASE_URL = "http://20.207.122.201/evaluation-service";
 
